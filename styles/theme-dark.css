@@ -48,7 +48,7 @@
  * Brand layout
  */
 .layout--brand {
-    background: #c82626;
+    background: #282c34;
     color: #fff;
 }
 
@@ -1047,7 +1047,7 @@ body {
 }
 
 .layout--brand {
-    background-color: #252830;
+    background-color: #282c34;
 }
 
 .container--white {
