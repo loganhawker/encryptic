@@ -45,7 +45,7 @@
  * Brand layout
  */
 .layout--brand {
-  background: #3e3bba;
+  background: #c82626;
   color: #fff;
 }
 .form--icon {
@@ -80,8 +80,8 @@
   padding-left: 14px;
 }
 .container.-auth {
-  max-width: 1000px;
-  padding-top: 10%;
+  max-width: 700px;
+  padding-top: 0%;
   padding-bottom: 20px;
 }
 #loading--circle {
@@ -108,7 +108,7 @@ a:hover,
   line-height: 2em;
 }
 .progress-bar-success {
-  background-color: #4c49c6;
+  background-color: #c82626;
 }
 .progress-bar-info {
   background-color: #1693A7;
@@ -238,12 +238,12 @@ input.-borderless:focus {
   border-color: #f2f2f2;
 }
 .btn.btn-success {
-  background-color: #4c49c6;
-  border-color: #504dc7;
+  background-color: #363636;
+  border-color: #ffffff;
 }
 .btn.btn-success:hover,
 .btn.btn-success:focus {
-  background-color: #3e3bba;
+  background-color: #000000;
 }
 /**
  * Change button styles in note view
@@ -299,7 +299,7 @@ input.-borderless:focus {
   content: ' ';
   width: 18px;
   height: 18px;
-  border: 2px solid #4c49c6;
+  border: 2px solid #c82626;
   border-radius: 2px;
   position: absolute;
   left: 0;
@@ -314,7 +314,7 @@ input.-borderless:focus {
 }
 .checkbox--path {
   fill: none;
-  stroke: #4c49c6;
+  stroke: #c82626;
   stroke-width: 20px;
   stroke-linecap: round;
   stroke-dasharray: 126.366, 126.366;
@@ -474,7 +474,7 @@ input.-borderless:focus {
 .sidemenu--item.list-group-item:hover,
 .list--settings.list-group-item.active,
 .list--settings.list-group-item:hover {
-  background: #4c49c6;
+  background: #c82626;
   color: #fff;
 }
 .sidemenu--item.-disabled,
@@ -526,8 +526,8 @@ input.-borderless:focus {
 .list--item.active,
 .list--item.active:hover,
 .list--item.active:focus {
-  background-color: #4c49c6;
-  border-color: #4c49c6;
+  background-color: #c82626;
+  border-color: #c82626;
   box-shadow: none;
 }
 .list--item.-note {
