@@ -51,6 +51,27 @@
     /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #343945;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #5a6177;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #5c6377;
+}
+
+
 .icon-search:before {
     content: '\e800';
 }
@@ -4999,6 +5020,10 @@ select[multiple].input-lg {
     user-select: none;
 }
 
+.btn-secondary {
+    background-color: transparent;
+}
+
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
@@ -5012,7 +5037,7 @@ select[multiple].input-lg {
 .btn:hover,
 .btn:focus,
 .btn.focus {
-    color: #333;
+    color: #d1d1d1;
     text-decoration: none;
 }
 
@@ -5302,28 +5327,28 @@ fieldset[disabled] .btn-info.focus {
 .btn-warning {
     color: #fff;
     background-color: #363636;
-    border-color: #ffffff;
+    border-color: rgba(255, 255, 255, 0);
 }
 
 .btn-warning:focus,
 .btn-warning.focus {
     color: #fff;
-    background-color: #ec971f;
-    border-color: #985f0d;
+    background-color: #c82626;
+    border-color: #c82626;
 }
 
 .btn-warning:hover {
     color: #fff;
-    background-color: #ec971f;
-    border-color: #d58512;
+    background-color: #c82626;
+    border-color: #c82626;
 }
 
 .btn-warning:active,
 .btn-warning.active,
 .open > .dropdown-toggle.btn-warning {
     color: #fff;
-    background-color: #ec971f;
-    border-color: #d58512;
+    background-color: #c82626;
+    border-color: #c82626;
 }
 
 .btn-warning:active:hover,
@@ -5336,8 +5361,8 @@ fieldset[disabled] .btn-info.focus {
 .btn-warning.active.focus,
 .open > .dropdown-toggle.btn-warning.focus {
     color: #fff;
-    background-color: #d58512;
-    border-color: #985f0d;
+    background-color: #c82626;
+    border-color: #c82626;
 }
 
 .btn-warning:active,
@@ -5355,12 +5380,12 @@ fieldset[disabled] .btn-warning:focus,
 .btn-warning.disabled.focus,
 .btn-warning[disabled].focus,
 fieldset[disabled] .btn-warning.focus {
-    background-color: #f0ad4e;
-    border-color: #eea236;
+    background-color: #c82626;
+    border-color: #c82626;
 }
 
 .btn-warning .badge {
-    color: #f0ad4e;
+    color: #c82626;
     background-color: #fff;
 }
 
@@ -5454,7 +5479,7 @@ fieldset[disabled] .btn-link {
 
 .btn-link:hover,
 .btn-link:focus {
-    color: #23527c;
+    color: #c82626;
     text-decoration: underline;
     background-color: transparent;
 }
@@ -6101,6 +6126,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .input-group-btn:last-child > .btn-group {
     z-index: 2;
     margin-left: -1px;
+}
+
+.header--settings > div > ul > li:first-child {
+    display: none;
 }
 
 .nav {
@@ -8548,15 +8577,15 @@ button.list-group-item-danger.active:focus {
     font-size: 21px;
     font-weight: bold;
     line-height: 1;
-    color: #000;
+    color: #fff;
     text-shadow: 0 1px 0 #fff;
-    opacity: 0.2;
+    opacity: 0.8;
     filter: alpha(opacity=20);
 }
 
 .close:hover,
 .close:focus {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     cursor: pointer;
     opacity: 0.5;
@@ -9732,14 +9761,14 @@ button.close {
 @media (min-width: 768px) {
     .sidemenu {
         float: left;
-        width: 25%;
+        width: 220px;
     }
 }
 
 @media (min-width: 1200px) {
     .sidemenu {
         float: left;
-        width: 25%;
+        width: 220px;
     }
 }
 
@@ -10533,7 +10562,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 }
 
 #editor--footer {
-    background: #f5f5f5;
+    background: #252830;
     bottom: 0;
     font-family: inherit;
     font-size: 14px;
@@ -10575,14 +10604,14 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) (max-width: 1199px) {
     .layout--sidebar {
         float: left;
-        width: 33.33333333%;
+        width: 25%;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) (max-width: 991px) {
     .layout--sidebar {
         float: left;
         width: 35%;
@@ -10606,14 +10635,14 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) (max-width: 1199px) {
     .layout--content {
         float: left;
-        width: 66.66666667%;
+        width: 75%;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) (max-width: 991px) {
     .layout--content {
         float: left;
         width: 65%;
